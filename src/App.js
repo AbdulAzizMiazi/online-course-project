@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import MainBody from './components/MainBody/MainBody';
-import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
