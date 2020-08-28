@@ -13,7 +13,7 @@ const MyCart = (props) => {
                         <Card.Title>{props.courseinfo.title}</Card.Title>
                             <p>From: {props.courseinfo.by}</p>
                         <Card.Text>               
-                            <p>$ {props.courseinfo.price}</p>
+                            <p>Price: ${props.courseinfo.price}</p>
                         </Card.Text>
                     </Card.Body>
                 </div>

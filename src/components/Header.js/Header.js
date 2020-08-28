@@ -2,6 +2,8 @@ import React from 'react';
 import './header.css';
 import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Header = (props) => {
     let totalCost = 0;
@@ -42,7 +44,9 @@ const Header = (props) => {
                                 <img src="https://p.kindpng.com/picc/s/22-223863_no-avatar-png-circle-transparent-png.png" alt=""/>
                             </div>
                         </div>
-                        <button className="paymentBtn">Go Payment</button>
+                        <button className="paymentBtn">
+                            <FontAwesomeIcon icon={faShoppingCart} /> Go Payment
+                        </button>
                     </Card.Body>
                 </Card>
             </div>
