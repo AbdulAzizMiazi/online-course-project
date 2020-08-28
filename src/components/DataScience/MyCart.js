@@ -18,7 +18,7 @@ const MyCart = (props) => {
                     </Card.Body>
                 </div>
                 <div>
-                    <Button style={{marginBottom:"5px", marginLeft:"50%"}}>Enroll Now</Button>
+                    <Button style={{marginBottom:"5px", marginLeft:"50%"}} onClick={()=> props.click(props.courseinfo)}>Enroll Now</Button>
                 </div>
             </Card>
         </div>

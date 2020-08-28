@@ -6,22 +6,22 @@ import MyCart from './MyCart';
 const DataScience = (props) => {
    
     return (
-        <div className="container">
+        <div>
             <Carousel>
                 <Carousel.Item>
                     <CardDeck>
-                        <MyCart courseinfo={props.courses[0]}></MyCart>
-                        <MyCart courseinfo={props.courses[1]}></MyCart>
-                        <MyCart courseinfo={props.courses[2]}></MyCart>
-                        <MyCart courseinfo={props.courses[3]}></MyCart>
+                        <MyCart courseinfo={props.courses[0]} click={props.click}></MyCart>
+                        <MyCart courseinfo={props.courses[1]} click={props.click}></MyCart>
+                        <MyCart courseinfo={props.courses[2]} click={props.click}></MyCart>
+                        <MyCart courseinfo={props.courses[3]} click={props.click}></MyCart>
                     </CardDeck>
                 </Carousel.Item>
                 <Carousel.Item>
                 <CardDeck >
-                    <MyCart courseinfo={props.courses[4]}></MyCart>
-                    <MyCart courseinfo={props.courses[5]}></MyCart>
-                    <MyCart courseinfo={props.courses[6]}></MyCart>
-                    <MyCart courseinfo={props.courses[7]}></MyCart>
+                    <MyCart courseinfo={props.courses[4]} click={props.click}></MyCart>
+                    <MyCart courseinfo={props.courses[5]} click={props.click}></MyCart>
+                    <MyCart courseinfo={props.courses[6]} click={props.click}></MyCart>
+                    <MyCart courseinfo={props.courses[7]} click={props.click}></MyCart>
                 </CardDeck>
                 </Carousel.Item>
             </Carousel>

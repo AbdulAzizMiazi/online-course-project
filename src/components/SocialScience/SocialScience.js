@@ -6,7 +6,7 @@ const SocialScience = (props) => {
     return (
         <div className="container my-container">
             {
-                courses.map(course => <MyCart className="cart-business" courseinfo={course}></MyCart>)
+                courses.map(course => <MyCart className="cart-business" courseinfo={course} click={props.click}></MyCart>)
             }
         </div>
     
